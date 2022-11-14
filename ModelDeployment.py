@@ -8,7 +8,7 @@ croplist = ["Wheat", "Ground Nuts", "Garden flowers", "Maize", "Paddy", "Potato"
 st.title("Recommendation System for Water Management")
 crop_type = st.selectbox("Crop Type", croplist)
 crop_days = st.number_input('Number of days passed after the crop was sown')
-soil_moisture = st.number_input('Current Soil Moisture (% [DHT11])')
+soil_moisture = st.number_input('Current Soil Moisture (DHT11 Reading)')
 temp = st.number_input('Current Temperature (°C)')
 humid = st.number_input('Current Humidity (%)')
 submit = st.button("Submit")
